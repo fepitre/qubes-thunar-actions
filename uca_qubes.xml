@@ -46,6 +46,7 @@
 	<command>/usr/lib/qubes/qvm-actions.sh p %F</command>
 	<description></description>
 	<patterns>*.pdf</patterns>
+	<other-files/>
 </action>
 <action>
 	<icon>gtk-convert</icon>
