@@ -2,7 +2,7 @@
 	<icon>folder-copy</icon>
 	<name>Copy to VM</name>
 	<unique-id>1507455450991127-4</unique-id>
-	<command>/home/user/qvm-actions.sh copy %F</command>
+	<command>/usr/lib/qubes/qvm-actions.sh copy %F</command>
 	<description></description>
 	<patterns>*</patterns>
 	<directories/>
@@ -16,7 +16,7 @@
 	<icon>folder-move</icon>
 	<name>Move to VM</name>
 	<unique-id>1507455437157027-3</unique-id>
-	<command>/home/user/qvm-actions.sh move %F</command>
+	<command>/usr/lib/qubes/qvm-actions.sh move %F</command>
 	<description></description>
 	<patterns>*</patterns>
 	<directories/>
@@ -30,7 +30,7 @@
 	<icon>document-open</icon>
 	<name>Open in VM</name>
 	<unique-id>1507455471075266-5</unique-id>
-	<command>/home/user/qvm-actions.sh openvm %F</command>
+	<command>/usr/lib/qubes/qvm-actions.sh openvm %F</command>
 	<description></description>
 	<patterns>*</patterns>
 	<audio-files/>
@@ -43,7 +43,7 @@
 	<icon>gtk-convert</icon>
 	<name>Convert in DisposableVM</name>
 	<unique-id>1507455488971315-6</unique-id>
-	<command>/home/user/qvm-actions.sh p %F</command>
+	<command>/usr/lib/qubes/qvm-actions.sh p %F</command>
 	<description></description>
 	<patterns>*.pdf</patterns>
 </action>
@@ -51,7 +51,7 @@
 	<icon>gtk-convert</icon>
 	<name>Convert in DisposableVM</name>
 	<unique-id>1507455503129941-7</unique-id>
-	<command>/home/user/qvm-actions.sh img %F</command>
+	<command>/usr/lib/qubes/qvm-actions.sh img %F</command>
 	<description></description>
 	<patterns>*</patterns>
 	<image-files/>
@@ -60,7 +60,7 @@
 	<icon>document-open</icon>
 	<name>Open in DisposableVM</name>
 	<unique-id>1507455559234996-8</unique-id>
-	<command>/home/user/qvm-actions.sh opendvm %F</command>
+	<command>/usr/lib/qubes/qvm-actions.sh opendvm %F</command>
 	<description></description>
 	<patterns>*</patterns>
 	<audio-files/>
